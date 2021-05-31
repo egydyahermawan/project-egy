@@ -2,6 +2,9 @@
 <html>
 <head>
 	<title>CRUD OOP</title>
+	<style>
+		h1{color:blue;}
+	</style>
 </head>
 <body>
 	<?php 
