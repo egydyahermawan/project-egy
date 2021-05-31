@@ -12,7 +12,7 @@ class database{
 		$this->con=mysqli_connect($this->host, $this->uname, $this->pass, $this->db);
 		mysqli_select_db($this->con, $this->db);
 	}
-
+	<!--mahasiswa1044 = nama table dengan 4 digit terakhir NIM--> 
 	function tampil_data(){
 		$data = mysqli_query($this->con,"SELECT * FROM mahasiswa1044");
 		while($d = mysqli_fetch_array($data)){
