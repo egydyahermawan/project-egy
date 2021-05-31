@@ -9,7 +9,7 @@
 		$db = new database();
 	?>
 
-	<h1>DATA Mahasiswa</h1>
+	<h1>Data Mahasiswa Politeknik Caltex Riau</h1>
 
 	<a href="input.php">Input Data</a>
 	<table border="1" cellpadding="5" cellspacing="0">
